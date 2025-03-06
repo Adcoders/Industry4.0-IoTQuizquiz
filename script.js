@@ -834,7 +834,7 @@ const quizData = {
       question: "Modbus is an industrial communication protocol for Fieldbuses that follows a master-slave architecture. What is the maximum number of slave devices supported by the master node in this protocol?",
       options: ["128", "247", "256", "494"],
       answer: "247",
-    }
+    },
   ],
   // <!-------------------------------------------- WEEK 7---------------------------------------------------------->
   "Week 7": [],
