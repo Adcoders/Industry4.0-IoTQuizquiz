@@ -744,7 +744,98 @@ const quizData = {
     },
   ],
   // <!-------------------------------------------- WEEK 6---------------------------------------------------------->
-  "Week 6": [],
+  "Week 6": [
+    {
+      question: "Which industrial communication technology is suitable for hazardous environments?",
+      options: ["ModBus-TCP", "EtherCat", "Profibus PA", "TSN"],
+      answer: "Profibus PA",
+    },
+    {
+      question: "Which type of modem allows simultaneous bi-directional communication?",
+      options: ["Simplex", "Half-duplex", "Duplex", "Synchronous"],
+      answer: "Duplex",
+    },
+    {
+      question: "Which of the following industrial communication protocols follow a client-server architecture?",
+      options: ["MECHATROLINK", "ModBus-TCP", "Hostlink", "DeviceNet"],
+      answer: "ModBus-TCP",
+    },
+    {
+      question: "What type of tasks is enabled by Smallcell Deployment in cellular networks?",
+      options: [
+        "Increasing dead zones",
+        "Alleviating backhaul burden and reducing latency",
+        "Limiting energy efficiency",
+        "Eliminating spectrum flexibility",
+      ],
+      answer: "Alleviating backhaul burden and reducing latency",
+    },
+    {
+      question: "The DS1621 temperature sensor generates how many bits of temperature data?",
+      options: ["8 bits", "9 bits", "10 bits", "12 bits"],
+      answer: "9 bits",
+    },
+    {
+      question: "Which of the following sensors is used to measure acceleration and provides 3-axis (X, Y, Z) values?",
+      options: ["TCS3200", "LM35", "MQ-2", "ADXL335"],
+      answer: "ADXL335",
+    },
+    {
+      question: "Which sensor is used for detecting human presence based on infrared radiation?",
+      options: ["Image sensor", "Ultrasonic sensor", "PIR sensor", "Magnetostrictive sensor"],
+      answer: "PIR sensor",
+    },
+    {
+      question: "In an MOS gas sensor, what happens to the resistance in an n-type sensor when exposed to a reducing gas?",
+      options: [
+        "Resistance remains the same",
+        "Resistance decreases",
+        "Resistance increases",
+        "Resistance fluctuates randomly",
+      ],
+      answer: "Resistance decreases",
+    },
+    {
+      question: "Which of the following characteristics describes a gas sensor’s ability to detect a specific gas in the presence of other gases?",
+      options: ["Sensitivity", "Stability", "Selectivity", "Reversibility"],
+      answer: "Selectivity",
+    },
+    {
+      question: "What is the maximum data transmission range for EtherCat using optical waveguides?",
+      options: ["100 meters", "500 meters", "10 kilometers", "20 kilometers"],
+      answer: "20 kilometers",
+    },
+    {
+      question: "Which communication protocol uses Common Industrial Protocol (CIP) over Ethernet?",
+      options: ["EtherNet/IP", "Profinet", "EtherCat", "Modbus-TCP"],
+      answer: "EtherNet/IP",
+    },
+    {
+      question: "What is the total bus length supported by Interbus?",
+      options: ["7 kilometers", "10 kilometers", "13 kilometers", "24n−2 meters, where n is the number of slaves"],
+      answer: "13 kilometers",
+    },
+    {
+      question: "Which of the following is a key requirement for Industrial communication?",
+      options: [
+        "High latency communication",
+        "Manual device control",
+        "Single-band connectivity",
+        "Very low latency",
+      ],
+      answer: "Very low latency",
+    },
+    {
+      question: "How are sensors categorized based on their power requirements?",
+      options: ["Active and Passive", "Analog and Digital", "Load Resistive and Load Reactive", "Battery-Powered and Line-Powered"],
+      answer: "Active and Passive",
+    },
+    {
+      question: "Modbus is an industrial communication protocol for Fieldbuses that follows a master-slave architecture. What is the maximum number of slave devices supported by the master node in this protocol?",
+      options: ["128", "247", "256", "494"],
+      answer: "247",
+    }
+  ],
   // <!-------------------------------------------- WEEK 7---------------------------------------------------------->
   "Week 7": [],
   // <!-------------------------------------------- WEEK 8---------------------------------------------------------->
