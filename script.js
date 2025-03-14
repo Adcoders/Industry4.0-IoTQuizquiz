@@ -2,8 +2,7 @@ const quizData = {
   // <!-------------------------------------------- WEEK 1---------------------------------------------------------->
   "Week 1": [
     {
-      question:
-        "Fill in the blank space designated by the question mark.",
+      question: "Fill in the blank space designated by the question mark.",
       options: ["Snubber", "Repeater", "Processor", "Amplifier"],
       answer: "Processor",
       image: "image.png",
@@ -746,22 +745,26 @@ const quizData = {
   // <!-------------------------------------------- WEEK 6---------------------------------------------------------->
   "Week 6": [
     {
-      question: "Which industrial communication technology is suitable for hazardous environments?",
+      question:
+        "Which industrial communication technology is suitable for hazardous environments?",
       options: ["ModBus-TCP", "EtherCat", "Profibus PA", "TSN"],
       answer: "Profibus PA",
     },
     {
-      question: "Which type of modem allows simultaneous bi-directional communication?",
+      question:
+        "Which type of modem allows simultaneous bi-directional communication?",
       options: ["Simplex", "Half-duplex", "Duplex", "Synchronous"],
       answer: "Duplex",
     },
     {
-      question: "Which of the following industrial communication protocols follow a client-server architecture?",
+      question:
+        "Which of the following industrial communication protocols follow a client-server architecture?",
       options: ["MECHATROLINK", "ModBus-TCP", "Hostlink", "DeviceNet"],
       answer: "ModBus-TCP",
     },
     {
-      question: "What type of tasks is enabled by Smallcell Deployment in cellular networks?",
+      question:
+        "What type of tasks is enabled by Smallcell Deployment in cellular networks?",
       options: [
         "Increasing dead zones",
         "Alleviating backhaul burden and reducing latency",
@@ -771,22 +774,31 @@ const quizData = {
       answer: "Alleviating backhaul burden and reducing latency",
     },
     {
-      question: "The DS1621 temperature sensor generates how many bits of temperature data?",
+      question:
+        "The DS1621 temperature sensor generates how many bits of temperature data?",
       options: ["8 bits", "9 bits", "10 bits", "12 bits"],
       answer: "9 bits",
     },
     {
-      question: "Which of the following sensors is used to measure acceleration and provides 3-axis (X, Y, Z) values?",
+      question:
+        "Which of the following sensors is used to measure acceleration and provides 3-axis (X, Y, Z) values?",
       options: ["TCS3200", "LM35", "MQ-2", "ADXL335"],
       answer: "ADXL335",
     },
     {
-      question: "Which sensor is used for detecting human presence based on infrared radiation?",
-      options: ["Image sensor", "Ultrasonic sensor", "PIR sensor", "Magnetostrictive sensor"],
+      question:
+        "Which sensor is used for detecting human presence based on infrared radiation?",
+      options: [
+        "Image sensor",
+        "Ultrasonic sensor",
+        "PIR sensor",
+        "Magnetostrictive sensor",
+      ],
       answer: "PIR sensor",
     },
     {
-      question: "In an MOS gas sensor, what happens to the resistance in an n-type sensor when exposed to a reducing gas?",
+      question:
+        "In an MOS gas sensor, what happens to the resistance in an n-type sensor when exposed to a reducing gas?",
       options: [
         "Resistance remains the same",
         "Resistance decreases",
@@ -796,27 +808,36 @@ const quizData = {
       answer: "Resistance decreases",
     },
     {
-      question: "Which of the following characteristics describes a gas sensor’s ability to detect a specific gas in the presence of other gases?",
+      question:
+        "Which of the following characteristics describes a gas sensor’s ability to detect a specific gas in the presence of other gases?",
       options: ["Sensitivity", "Stability", "Selectivity", "Reversibility"],
       answer: "Selectivity",
     },
     {
-      question: "What is the maximum data transmission range for EtherCat using optical waveguides?",
+      question:
+        "What is the maximum data transmission range for EtherCat using optical waveguides?",
       options: ["100 meters", "500 meters", "10 kilometers", "20 kilometers"],
       answer: "20 kilometers",
     },
     {
-      question: "Which communication protocol uses Common Industrial Protocol (CIP) over Ethernet?",
+      question:
+        "Which communication protocol uses Common Industrial Protocol (CIP) over Ethernet?",
       options: ["EtherNet/IP", "Profinet", "EtherCat", "Modbus-TCP"],
       answer: "EtherNet/IP",
     },
     {
       question: "What is the total bus length supported by Interbus?",
-      options: ["7 kilometers", "10 kilometers", "13 kilometers", "24n−2 meters, where n is the number of slaves"],
+      options: [
+        "7 kilometers",
+        "10 kilometers",
+        "13 kilometers",
+        "24n−2 meters, where n is the number of slaves",
+      ],
       answer: "13 kilometers",
     },
     {
-      question: "Which of the following is a key requirement for Industrial communication?",
+      question:
+        "Which of the following is a key requirement for Industrial communication?",
       options: [
         "High latency communication",
         "Manual device control",
@@ -826,18 +847,155 @@ const quizData = {
       answer: "Very low latency",
     },
     {
-      question: "How are sensors categorized based on their power requirements?",
-      options: ["Active and Passive", "Analog and Digital", "Load Resistive and Load Reactive", "Battery-Powered and Line-Powered"],
+      question:
+        "How are sensors categorized based on their power requirements?",
+      options: [
+        "Active and Passive",
+        "Analog and Digital",
+        "Load Resistive and Load Reactive",
+        "Battery-Powered and Line-Powered",
+      ],
       answer: "Active and Passive",
     },
     {
-      question: "Modbus is an industrial communication protocol for Fieldbuses that follows a master-slave architecture. What is the maximum number of slave devices supported by the master node in this protocol?",
+      question:
+        "Modbus is an industrial communication protocol for Fieldbuses that follows a master-slave architecture. What is the maximum number of slave devices supported by the master node in this protocol?",
       options: ["128", "247", "256", "494"],
       answer: "247",
     },
   ],
   // <!-------------------------------------------- WEEK 7---------------------------------------------------------->
-  "Week 7": [],
+  "Week 7": [
+    {
+      question: "Which of the following topologies is NOT supported by Zigbee?",
+      options: ["Tree", "Bus", "Mesh", "All of these"],
+      answer: "Bus",
+    },
+    {
+      question: "What is a key benefit of Distributed Control Systems (DCS)?",
+      options: [
+        "Increased complexity in control mechanism",
+        "Improved reliability through distributed control",
+        "Increased manual interventions",
+        "Reduced communication between devices",
+      ],
+      answer: "Improved reliability through distributed control",
+    },
+    {
+      question: "In which frequency bands do LoRa operate?",
+      options: [
+        "2.4 GHz",
+        "868 MHz (Europe), 915 MHz (North America)",
+        "5 GHz",
+        "1.8 MHz",
+      ],
+      answer: "868 MHz (Europe), 915 MHz (North America)",
+    },
+    {
+      question: "Which library is required to work with the LoRa?",
+      options: ["Radiohead", "Xbee", "Zigbee", "XCTU"],
+      answer: "Radiohead",
+    },
+    {
+      question:
+        "Machine-to-Machine Interface (M2MI) is one of the major components of Supervisory control and Data Acquisition that is used for enabling control and operations of the remote processes by human operators.",
+      options: ["True", "False"],
+      answer: "False",
+    },
+    {
+      question:
+        "Zigbee uses the _____________ standard for defining its physical and medium access control (layers 1 and 2 of the OSI stack).",
+      options: [
+        "IEEE 802.16.6",
+        "IEEE 802.15.4",
+        "IEEE 502.15.4",
+        "IEEE 502.16.6",
+      ],
+      answer: "IEEE 802.15.4",
+    },
+    {
+      question:
+        "The SIGFOX network can transmit up to 140 messages per day with a payload of 12 bytes per message.",
+      options: ["True", "False"],
+      answer: "True",
+    },
+    {
+      question:
+        "Which of the following is/are false about the rule-based engine?",
+      options: [
+        "Extract causal and temporal patterns using predefined rules",
+        "Handles multiple data streams and correlates them to provide meaningful output",
+        "Cannot process data in near real-time",
+        "All of the above",
+      ],
+      answer: "Cannot process data in near real-time",
+    },
+    {
+      question: "Which of the following is NOT a Zigbee device type?",
+      options: ["Coordinator", "Router", "End device", "Hub"],
+      answer: "Hub",
+    },
+    {
+      question:
+        "What is the role of message brokers like MQTT and Apache Kafka in real-time IoT processing systems?",
+      options: [
+        "They store IoT data permanently",
+        "They transfer data to analytical pipelines",
+        "They eliminate the need for data analysis",
+        "They reduce data complexity by deleting unnecessary events",
+      ],
+      answer: "They transfer data to analytical pipelines",
+    },
+    {
+      question:
+        "Which type of analytics in IIoT focuses on forecasting future conditions?",
+      options: [
+        "Descriptive Analytics",
+        "Predictive Analytics",
+        "Prescriptive Analytics",
+        "Business Processing Analytics",
+      ],
+      answer: "Predictive Analytics",
+    },
+    {
+      question:
+        "Which of the following is NOT a key component of the Smart Water Management Platform (SWAMP)?",
+      options: ["Sensors", "Virtual entity", "ERP", "Data management"],
+      answer: "ERP",
+    },
+    {
+      question:
+        "Which of the following is NOT a phase of Industrial Manufacturing workflow?",
+      options: [
+        "Collection of service offerings and infrastructure",
+        "Virtualization, allocation, and management of services",
+        "On-demand service provisioning",
+        "Reallocation of deployed infrastructure",
+      ],
+      answer: "Reallocation of deployed infrastructure",
+    },
+    {
+      question: "Which of the following is NOT a key component of SCADA?",
+      options: [
+        "Sensors and Control Relays",
+        "Remote Telemetry Units (RTUs)",
+        "Inventory Databases",
+        "Human-Machine Interface (HMI)",
+      ],
+      answer: "Inventory Databases",
+    },
+    {
+      question:
+        "Which of the following is NOT a major component of an Industrial Control System?",
+      options: [
+        "Process Variables",
+        "Set Points",
+        "Industrial Internet",
+        "Manipulating Variables",
+      ],
+      answer: "Industrial Internet",
+    },
+  ],
   // <!-------------------------------------------- WEEK 8---------------------------------------------------------->
   "Week 8": [],
   // <!-------------------------------------------- WEEK 9---------------------------------------------------------->
