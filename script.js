@@ -997,427 +997,452 @@ const quizData = {
     },
   ],
   // <!-------------------------------------------- WEEK 8---------------------------------------------------------->
-  "Week 8": [{
-    question: "Which of the following is NOT a key characteristic of Big Data Analytics in IIoT?",
-    options: [
-      "Volume",
-      "Velocity",
-      "Veracity",
-      "Validation",
-    ],
-    answer: "Validation",
-  },
-  {
-    question: "Which software is commonly used for batch-oriented analytics?",
-    options: [
-      "C++ and Java",
-      "Apache Hadoop and Apache Spark",
-      "Pandas and Numpy",
-      "MongoDB and MySQL",
-    ],
-    answer: "Apache Hadoop and Apache Spark",
-  },
-  {
-    question: "Which of the following is NOT a fundamental type of IIoT Analytics?",
-    options: [
-      "Descriptive Analytics",
-      "Predictive Analytics",
-      "Prescriptive Analytics",
-      "Structural Analytics",
-    ],
-    answer: "Structural Analytics",
-  },
-  {
-    question: "Which machine learning algorithm enables machines to improve their performance by automatically learning the ideal behaviors for a specific environment?",
-    options: [
-      "Supervised Learning",
-      "Unsupervised Learning",
-      "Reinforcement Learning",
-      "Regression",
-    ],
-    answer: "Reinforcement Learning",
-  },
-  {
-    question: "Which of the following represents a key feature of Fuzzy c-Means clustering?",
-    options: [
-      "A data point can belong to more than one cluster",
-      "A data point belongs strictly to only one cluster",
-      "Extremely slower than K-Means",
-      "None of these",
-    ],
-    answer: "A data point can belong to more than one cluster",
-  },
-  {
-    question: "Which of the following is TRUE about the ThingWorx platform?",
-    options: [
-      "Perform complex analytical process",
-      "Deliver real-time perception",
-      "Has the ability to monitor the condition",
-      "All of these",
-    ],
-    answer: "All of these",
-  },
-  {
-    question: "State True or False. Deep learning is an 'end-to-end learning', which extracts features on its own. On the contrary, in machine learning, features are to be explicitly mentioned.",
-    options: [
-      "True",
-      "False",
-    ],
-    answer: "True",
-  },
-  {
-    question: "Which of the following statements is TRUE about machine learning (ML)?",
-    options: [
-      "ML is the subset of AI that can learn automatically from the object features",
-      "ML is the subset of DL which can learn automatically by finding the features of the object on its own",
-      "ML always performs better than Deep Learning models",
-      "ML can only be used for image recognition tasks",
-    ],
-    answer: "ML is the subset of AI that can learn automatically from the object features",
-  },
-  {
-    question: "Which of the following statements about MindSphere is incorrect?",
-    options: [
-      "Cloud-based operating system platform for IoT",
-      "Open safety-as-a-service",
-      "Bring together IoT data from products, factories, machines, and systems to exploit its prosperity",
-      "Enterprise oriented solutions",
-    ],
-    answer: "Open safety-as-a-service",
-  },
-  {
-    question: "Which of the following is/are key characteristic(s) of a Consumer IoT cloud platform?",
-    options: [
-      "Provide very specific applications for end users",
-      "Provide modest security",
-      "Generally cost-sensitive",
-      "All of these",
-    ],
-    answer: "All of these",
-  },
-  {
-    question: "Which of the following is NOT a fundamental cloud computing service?",
-    options: [
-      "Software-as-a-Service",
-      "Platform-as-a-Service",
-      "ERP-as-a-Service",
-      "Infrastructure-as-a-Service",
-    ],
-    answer: "ERP-as-a-Service",
-  },
-  {
-    question: "Which of the following services is NOT provided by C3 IoT?",
-    options: [
-      "Predictive Maintenance",
-      "Inventory Optimization",
-      "IoT Hardware Analysis",
-      "Fraud Detection",
-    ],
-    answer: "IoT Hardware Analysis",
-  },
-  {
-    question: "Which of the following cloud platform providers does not offer IIoT device management services?",
-    options: [
-      "Bosch IoT Remote Manager",
-      "Facebook Cloud Services",
-      "AWS’s IoT Device Management",
-      "ICP DAS’s IoTstar",
-    ],
-    answer: "Facebook Cloud Services",
-  },
-  {
-    question: "What does 'Variety' refer to in the context of data generation?",
-    options: [
-      "The speed at which data is generated",
-      "The amount of data generated",
-      "The format of data generated, such as structured, semi-structured, or unstructured",
-      "The accuracy and reliability of data generated",
-    ],
-    answer: "The format of data generated, such as structured, semi-structured, or unstructured",
-  },
-  {
-    question: "What does the 'K' in K-means clustering represent?",
-    options: [
-      "Number of features in the dataset",
-      "Number of clusters to be identified",
-      "Maximum iterations allowed in the process",
-      "Number of data points in each cluster",
-    ],
-    answer: "Number of clusters to be identified",
-  },
-            ],
+  "Week 8": [
+    {
+      question:
+        "Which of the following is NOT a key characteristic of Big Data Analytics in IIoT?",
+      options: ["Volume", "Velocity", "Veracity", "Validation"],
+      answer: "Validation",
+    },
+    {
+      question: "Which software is commonly used for batch-oriented analytics?",
+      options: [
+        "C++ and Java",
+        "Apache Hadoop and Apache Spark",
+        "Pandas and Numpy",
+        "MongoDB and MySQL",
+      ],
+      answer: "Apache Hadoop and Apache Spark",
+    },
+    {
+      question:
+        "Which of the following is NOT a fundamental type of IIoT Analytics?",
+      options: [
+        "Descriptive Analytics",
+        "Predictive Analytics",
+        "Prescriptive Analytics",
+        "Structural Analytics",
+      ],
+      answer: "Structural Analytics",
+    },
+    {
+      question:
+        "Which machine learning algorithm enables machines to improve their performance by automatically learning the ideal behaviors for a specific environment?",
+      options: [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Regression",
+      ],
+      answer: "Reinforcement Learning",
+    },
+    {
+      question:
+        "Which of the following represents a key feature of Fuzzy c-Means clustering?",
+      options: [
+        "A data point can belong to more than one cluster",
+        "A data point belongs strictly to only one cluster",
+        "Extremely slower than K-Means",
+        "None of these",
+      ],
+      answer: "A data point can belong to more than one cluster",
+    },
+    {
+      question: "Which of the following is TRUE about the ThingWorx platform?",
+      options: [
+        "Perform complex analytical process",
+        "Deliver real-time perception",
+        "Has the ability to monitor the condition",
+        "All of these",
+      ],
+      answer: "All of these",
+    },
+    {
+      question:
+        "State True or False. Deep learning is an 'end-to-end learning', which extracts features on its own. On the contrary, in machine learning, features are to be explicitly mentioned.",
+      options: ["True", "False"],
+      answer: "True",
+    },
+    {
+      question:
+        "Which of the following statements is TRUE about machine learning (ML)?",
+      options: [
+        "ML is the subset of AI that can learn automatically from the object features",
+        "ML is the subset of DL which can learn automatically by finding the features of the object on its own",
+        "ML always performs better than Deep Learning models",
+        "ML can only be used for image recognition tasks",
+      ],
+      answer:
+        "ML is the subset of AI that can learn automatically from the object features",
+    },
+    {
+      question:
+        "Which of the following statements about MindSphere is incorrect?",
+      options: [
+        "Cloud-based operating system platform for IoT",
+        "Open safety-as-a-service",
+        "Bring together IoT data from products, factories, machines, and systems to exploit its prosperity",
+        "Enterprise oriented solutions",
+      ],
+      answer: "Open safety-as-a-service",
+    },
+    {
+      question:
+        "Which of the following is/are key characteristic(s) of a Consumer IoT cloud platform?",
+      options: [
+        "Provide very specific applications for end users",
+        "Provide modest security",
+        "Generally cost-sensitive",
+        "All of these",
+      ],
+      answer: "All of these",
+    },
+    {
+      question:
+        "Which of the following is NOT a fundamental cloud computing service?",
+      options: [
+        "Software-as-a-Service",
+        "Platform-as-a-Service",
+        "ERP-as-a-Service",
+        "Infrastructure-as-a-Service",
+      ],
+      answer: "ERP-as-a-Service",
+    },
+    {
+      question: "Which of the following services is NOT provided by C3 IoT?",
+      options: [
+        "Predictive Maintenance",
+        "Inventory Optimization",
+        "IoT Hardware Analysis",
+        "Fraud Detection",
+      ],
+      answer: "IoT Hardware Analysis",
+    },
+    {
+      question:
+        "Which of the following cloud platform providers does not offer IIoT device management services?",
+      options: [
+        "Bosch IoT Remote Manager",
+        "Facebook Cloud Services",
+        "AWS’s IoT Device Management",
+        "ICP DAS’s IoTstar",
+      ],
+      answer: "Facebook Cloud Services",
+    },
+    {
+      question:
+        "What does 'Variety' refer to in the context of data generation?",
+      options: [
+        "The speed at which data is generated",
+        "The amount of data generated",
+        "The format of data generated, such as structured, semi-structured, or unstructured",
+        "The accuracy and reliability of data generated",
+      ],
+      answer:
+        "The format of data generated, such as structured, semi-structured, or unstructured",
+    },
+    {
+      question: "What does the 'K' in K-means clustering represent?",
+      options: [
+        "Number of features in the dataset",
+        "Number of clusters to be identified",
+        "Maximum iterations allowed in the process",
+        "Number of data points in each cluster",
+      ],
+      answer: "Number of clusters to be identified",
+    },
+  ],
   // <!-------------------------------------------- WEEK 9---------------------------------------------------------->
-  "Week 9": [{
-    question: "Which of the following can be rendered by the fog-enabled IIoT?",
-    options: [
-      "Real-time monitoring and visualization",
-      "End-to-end security",
-      "Scalability and flexibility",
-      "All of these",
-    ],
-    answer: "All of these",
-  },
-  {
-    question: "Which of the following is a Fog Computing platform provider?",
-    options: ["Netflix", "FogHorn", "Google Search", "Twitter Analytics"],
-    answer: "FogHorn",
-  },
-  {
-    question: "What is the primary use of the R programming language?",
-    options: [
-      "ERP data handling",
-      "Statistical analysis and data visualization",
-      "SDN security provisioning",
-      "Mobile application development",
-    ],
-    answer: "Statistical analysis and data visualization",
-  },
-  {
-    question: "Which operator in R is used to obtain the remainder of a division?",
-    options: ["/", "%/%", "%%", "^"],
-    answer: "%%",
-  },
-  {
-    question: "Which of the following is NOT a data type in R?",
-    options: ["Logical", "Integer", "Binary", "Complex"],
-    answer: "Binary",
-  },
-  {
-    question: "What is the function of the ‘caret’ package in R?",
-    options: [
-      "Provides functions for network security",
-      "Provides functions for creating predictive models",
-      "Manages file system operations",
-      "Helps in game development",
-    ],
-    answer: "Provides functions for creating predictive models",
-  },
-  {
-    question: "In Julia programming language, which of the following is used for string interpolation?",
-    options: ["&", "%", "$", "@"],
-    answer: "$",
-  },
-  {
-    question: "Which of the following is NOT a basic service model of cloud computing?",
-    options: [
-      "Infrastructure-as-a-Service (IaaS)",
-      "Platform-as-a-Service (PaaS)",
-      "Software-as-a-Service (SaaS)",
-      "Analytics-as-a-Service (AaaS)",
-    ],
-    answer: "Analytics-as-a-Service (AaaS)",
-  },
-  {
-    question: "What is the primary purpose of data pre-processing in IIoT?",
-    options: [
-      "To always append 50% randomly generated data with the existing dataset",
-      "To clean, integrate, and filter data before analysis",
-      "To always delete 50% of the existing data randomly",
-      "To transfer data directly to users without modification",
-    ],
-    answer: "To clean, integrate, and filter data before analysis",
-  },
-  {
-    question: "State true or false. Hadoop Distributed File System (HDFS) and Kosmosfs are notable file systems derived from the open-source codes of Google File System (GFS).",
-    options: ["True", "False"],
-    answer: "True",
-  },
-  {
-    question: "Which of the following is NOT a key requirement for a Data Center Network?",
-    options: [
-      "VM migration without changing IP addresses",
-      "Fast detection of failure",
-      "In-house power plant",
-      "Efficient repair of failure",
-    ],
-    answer: "In-house power plant",
-  },
-  {
-    question: "Edge, Aggregation, and Core are the components of which Data Center Network topology?",
-    options: ["DCell", "Fat-Tree DCN", "BCube", "Hybrid Cloud Network"],
-    answer: "Fat-Tree DCN",
-  },
-  {
-    question: "Which of the following statements about the Data Center Network topology- BCube is incorrect?",
-    options: [
-      "Server-centric approach, rather than the switch-oriented practice",
-      "Places intelligence on modular data center (MDC) servers",
-      "Provides single serial short paths between any pair of servers",
-      "Runs a source routing protocol called BSR (Bcube Source Routing)",
-    ],
-    answer: "Provides single serial short paths between any pair of servers",
-  },
-  {
-    question: "What is the role of the SDN controller in a network?",
-    options: [
-      "It modifies data packets before forwarding to end users",
-      "It defines and manages flow rules for forwarding devices",
-      "It directly replaces physical network switches",
-      "It completely eliminates the need for network security",
-    ],
-    answer: "It defines and manages flow rules for forwarding devices",
-  },
-  {
-    question: "Which of the following statements is FALSE about fog computing?",
-    options: [
-      "The fog layer analyzes a huge volume of real-time data generated from industrial devices and machines.",
-      "The fog layer simultaneously collects data from various interconnected industrial machines, smart sensors, devices, and robots.",
-      "The fog layer generates the decisions from the sensed data and delivers them to the actuators with minimum latency.",
-      "The fog layer increases unnecessary data transmission to the cloud and server by bypassing data filtering and restructuring.",
-    ],
-    answer: "The fog layer increases unnecessary data transmission to the cloud and server by bypassing data filtering and restructuring.",
-  },
-            ],
+  "Week 9": [
+    {
+      question:
+        "Which of the following can be rendered by the fog-enabled IIoT?",
+      options: [
+        "Real-time monitoring and visualization",
+        "End-to-end security",
+        "Scalability and flexibility",
+        "All of these",
+      ],
+      answer: "All of these",
+    },
+    {
+      question: "Which of the following is a Fog Computing platform provider?",
+      options: ["Netflix", "FogHorn", "Google Search", "Twitter Analytics"],
+      answer: "FogHorn",
+    },
+    {
+      question: "What is the primary use of the R programming language?",
+      options: [
+        "ERP data handling",
+        "Statistical analysis and data visualization",
+        "SDN security provisioning",
+        "Mobile application development",
+      ],
+      answer: "Statistical analysis and data visualization",
+    },
+    {
+      question:
+        "Which operator in R is used to obtain the remainder of a division?",
+      options: ["/", "%/%", "%%", "^"],
+      answer: "%%",
+    },
+    {
+      question: "Which of the following is NOT a data type in R?",
+      options: ["Logical", "Integer", "Binary", "Complex"],
+      answer: "Binary",
+    },
+    {
+      question: "What is the function of the ‘caret’ package in R?",
+      options: [
+        "Provides functions for network security",
+        "Provides functions for creating predictive models",
+        "Manages file system operations",
+        "Helps in game development",
+      ],
+      answer: "Provides functions for creating predictive models",
+    },
+    {
+      question:
+        "In Julia programming language, which of the following is used for string interpolation?",
+      options: ["&", "%", "$", "@"],
+      answer: "$",
+    },
+    {
+      question:
+        "Which of the following is NOT a basic service model of cloud computing?",
+      options: [
+        "Infrastructure-as-a-Service (IaaS)",
+        "Platform-as-a-Service (PaaS)",
+        "Software-as-a-Service (SaaS)",
+        "Analytics-as-a-Service (AaaS)",
+      ],
+      answer: "Analytics-as-a-Service (AaaS)",
+    },
+    {
+      question: "What is the primary purpose of data pre-processing in IIoT?",
+      options: [
+        "To always append 50% randomly generated data with the existing dataset",
+        "To clean, integrate, and filter data before analysis",
+        "To always delete 50% of the existing data randomly",
+        "To transfer data directly to users without modification",
+      ],
+      answer: "To clean, integrate, and filter data before analysis",
+    },
+    {
+      question:
+        "State true or false. Hadoop Distributed File System (HDFS) and Kosmosfs are notable file systems derived from the open-source codes of Google File System (GFS).",
+      options: ["True", "False"],
+      answer: "True",
+    },
+    {
+      question:
+        "Which of the following is NOT a key requirement for a Data Center Network?",
+      options: [
+        "VM migration without changing IP addresses",
+        "Fast detection of failure",
+        "In-house power plant",
+        "Efficient repair of failure",
+      ],
+      answer: "In-house power plant",
+    },
+    {
+      question:
+        "Edge, Aggregation, and Core are the components of which Data Center Network topology?",
+      options: ["DCell", "Fat-Tree DCN", "BCube", "Hybrid Cloud Network"],
+      answer: "Fat-Tree DCN",
+    },
+    {
+      question:
+        "Which of the following statements about the Data Center Network topology- BCube is incorrect?",
+      options: [
+        "Server-centric approach, rather than the switch-oriented practice",
+        "Places intelligence on modular data center (MDC) servers",
+        "Provides single serial short paths between any pair of servers",
+        "Runs a source routing protocol called BSR (Bcube Source Routing)",
+      ],
+      answer: "Provides single serial short paths between any pair of servers",
+    },
+    {
+      question: "What is the role of the SDN controller in a network?",
+      options: [
+        "It modifies data packets before forwarding to end users",
+        "It defines and manages flow rules for forwarding devices",
+        "It directly replaces physical network switches",
+        "It completely eliminates the need for network security",
+      ],
+      answer: "It defines and manages flow rules for forwarding devices",
+    },
+    {
+      question:
+        "Which of the following statements is FALSE about fog computing?",
+      options: [
+        "The fog layer analyzes a huge volume of real-time data generated from industrial devices and machines.",
+        "The fog layer simultaneously collects data from various interconnected industrial machines, smart sensors, devices, and robots.",
+        "The fog layer generates the decisions from the sensed data and delivers them to the actuators with minimum latency.",
+        "The fog layer increases unnecessary data transmission to the cloud and server by bypassing data filtering and restructuring.",
+      ],
+      answer:
+        "The fog layer increases unnecessary data transmission to the cloud and server by bypassing data filtering and restructuring.",
+    },
+  ],
   // <!-------------------------------------------- WEEK 10---------------------------------------------------------->
-  "Week 10": [{
-    question: "Which of the following is NOT a component of the SDIIoT architecture?",
-    options: [
-      "SDIIoT – WSN",
-      "SDIIoT – Industrial Bus & Network",
-      "SDIIoT – ERP Framework",
-      "SDIIoT – Industrial Cloud",
-    ],
-    answer: "SDIIoT – ERP Framework",
-  },
-  {
-    question: "Which of the following is NOT a component of SD-Edge IIoT Architecture?",
-    options: [
-      "Cluster Head",
-      "Industrial Cloud",
-      "Edge Network",
-      "Standalone Firewall",
-    ],
-    answer: "Standalone Firewall",
-  },
-  {
-    question: "Which of the following is NOT a key attribute of trustworthy IIoT?",
-    options: [
-      "Reliability",
-      "Security",
-      "Unlimited network access",
-      "Privacy",
-    ],
-    answer: "Unlimited network access",
-  },
-  {
-    question: "Which of the following is an example of an IIoT attack at the physical layer?",
-    options: [
-      "SQL injection",
-      "Device tampering",
-      "Traffic flooding",
-      "Man-in-the-middle attack",
-    ],
-    answer: "Device tampering",
-  },
-  {
-    question: "What does the STRIDE threat model in IIoT security stand for?",
-    options: [
-      "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege",
-      "Secure Transmission, Reliable Data, Industrial Deployment, Encryption",
-      "Software, Tracking, Response, Integration, Data, Encryption",
-      "Security Threats, Risk Identification, Detection, Evaluation",
-    ],
-    answer: "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege",
-  },
-  {
-    question: "Which of the following is an attack vector in the network layer of IIoT?",
-    options: [
-      "SQL injection",
-      "Traffic flooding",
-      "Jamming attack",
-      "Data spoofing",
-    ],
-    answer: "Traffic flooding",
-  },
-  {
-    question: "Which of the following is NOT a building block of IIoT security?",
-    options: [
-      "Cloud security",
-      "Data protection",
-      "Physical network topologies",
-      "Communication Protection",
-    ],
-    answer: "Physical network topologies",
-  },
-  {
-    question: "Which of the following standards is related to Industrial automation and control systems security?",
-    options: [
-      "ISO/IEC 154083",
-      "IEC 62443",
-      "ISO 27017",
-      "NIST SP 800-144",
-    ],
-    answer: "IEC 62443",
-  },
-  {
-    question: "Which of the following is NOT a key principle of data protection in IIoT?",
-    options: [
-      "Confidentiality",
-      "Integrity",
-      "Availability",
-      "Unrestricted access",
-    ],
-    answer: "Unrestricted access",
-  },
-  {
-    question: "State true or false. Caterpillar’s AR app generates an end-to-end view of the factory floor, enabling machine operators to detect tool replacement needs and send instructions for replacement.",
-    options: [
-      "True",
-      "False",
-    ],
-    answer: "True",
-  },
-  {
-    question: "Which of the following is NOT a key feature of a Smart Factory?",
-    options: [
-      "Continuous real-time data",
-      "Prediction of future outcomes for taking preventive actions",
-      "High manual operation",
-      "Flexibility and adaptability",
-    ],
-    answer: "High manual operation",
-  },
-  {
-    question: "Which of the following statements is INCORRECT about Fanuc – Zero Downtime System?",
-    options: [
-      "Is a robot maker",
-      "Uses predictive maintenance to reduce downtime",
-      "Does not predict component failure",
-      "Performs cloud-based analytics with the help of in-built sensors",
-    ],
-    answer: "Does not predict component failure",
-  },
-  {
-    question: "What is the purpose of SmartLabel in the food industry?",
-    options: [
-      "To provide consumers with product-related information via QR codes",
-      "To remove ingredient details from food packaging",
-      "To eliminate allergen warnings for consumers",
-      "To prevent transparency in the food supply chain",
-    ],
-    answer: "To provide consumers with product-related information via QR codes",
-  },
-  {
-    question: "Which of the following devices is primarily used to detect the presence of microbial disease in food?",
-    options: [
-      "Diagenetix-BioRanger",
-      "Eskesso–The Cooking Sorcery",
-      "Intellicup–Smart Cups",
-      "Intellicup–The Cooking Sorcery",
-    ],
-    answer: "Diagenetix-BioRanger",
-  },
-  {
-    question: "What is the unique feature of Spinn Inc.’s smart coffee machines?",
-    options: [
-      "They connect with Amazon Echo and have an auto-order feature",
-      "They remove automation from coffee brewing",
-      "They require manual input for all brewing processes",
-      "They prevent connectivity with IoT platforms",
-    ],
-    answer: "They connect with Amazon Echo and have an auto-order feature",
-  },
-             ],
+  "Week 10": [
+    {
+      question:
+        "Which of the following is NOT a component of the SDIIoT architecture?",
+      options: [
+        "SDIIoT – WSN",
+        "SDIIoT – Industrial Bus & Network",
+        "SDIIoT – ERP Framework",
+        "SDIIoT – Industrial Cloud",
+      ],
+      answer: "SDIIoT – ERP Framework",
+    },
+    {
+      question:
+        "Which of the following is NOT a component of SD-Edge IIoT Architecture?",
+      options: [
+        "Cluster Head",
+        "Industrial Cloud",
+        "Edge Network",
+        "Standalone Firewall",
+      ],
+      answer: "Standalone Firewall",
+    },
+    {
+      question:
+        "Which of the following is NOT a key attribute of trustworthy IIoT?",
+      options: [
+        "Reliability",
+        "Security",
+        "Unlimited network access",
+        "Privacy",
+      ],
+      answer: "Unlimited network access",
+    },
+    {
+      question:
+        "Which of the following is an example of an IIoT attack at the physical layer?",
+      options: [
+        "SQL injection",
+        "Device tampering",
+        "Traffic flooding",
+        "Man-in-the-middle attack",
+      ],
+      answer: "Device tampering",
+    },
+    {
+      question: "What does the STRIDE threat model in IIoT security stand for?",
+      options: [
+        "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege",
+        "Secure Transmission, Reliable Data, Industrial Deployment, Encryption",
+        "Software, Tracking, Response, Integration, Data, Encryption",
+        "Security Threats, Risk Identification, Detection, Evaluation",
+      ],
+      answer:
+        "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege",
+    },
+    {
+      question:
+        "Which of the following is an attack vector in the network layer of IIoT?",
+      options: [
+        "SQL injection",
+        "Traffic flooding",
+        "Jamming attack",
+        "Data spoofing",
+      ],
+      answer: "Traffic flooding",
+    },
+    {
+      question:
+        "Which of the following is NOT a building block of IIoT security?",
+      options: [
+        "Cloud security",
+        "Data protection",
+        "Physical network topologies",
+        "Communication Protection",
+      ],
+      answer: "Physical network topologies",
+    },
+    {
+      question:
+        "Which of the following standards is related to Industrial automation and control systems security?",
+      options: ["ISO/IEC 154083", "IEC 62443", "ISO 27017", "NIST SP 800-144"],
+      answer: "IEC 62443",
+    },
+    {
+      question:
+        "Which of the following is NOT a key principle of data protection in IIoT?",
+      options: [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Unrestricted access",
+      ],
+      answer: "Unrestricted access",
+    },
+    {
+      question:
+        "State true or false. Caterpillar’s AR app generates an end-to-end view of the factory floor, enabling machine operators to detect tool replacement needs and send instructions for replacement.",
+      options: ["True", "False"],
+      answer: "True",
+    },
+    {
+      question:
+        "Which of the following is NOT a key feature of a Smart Factory?",
+      options: [
+        "Continuous real-time data",
+        "Prediction of future outcomes for taking preventive actions",
+        "High manual operation",
+        "Flexibility and adaptability",
+      ],
+      answer: "High manual operation",
+    },
+    {
+      question:
+        "Which of the following statements is INCORRECT about Fanuc – Zero Downtime System?",
+      options: [
+        "Is a robot maker",
+        "Uses predictive maintenance to reduce downtime",
+        "Does not predict component failure",
+        "Performs cloud-based analytics with the help of in-built sensors",
+      ],
+      answer: "Does not predict component failure",
+    },
+    {
+      question: "What is the purpose of SmartLabel in the food industry?",
+      options: [
+        "To provide consumers with product-related information via QR codes",
+        "To remove ingredient details from food packaging",
+        "To eliminate allergen warnings for consumers",
+        "To prevent transparency in the food supply chain",
+      ],
+      answer:
+        "To provide consumers with product-related information via QR codes",
+    },
+    {
+      question:
+        "Which of the following devices is primarily used to detect the presence of microbial disease in food?",
+      options: [
+        "Diagenetix-BioRanger",
+        "Eskesso–The Cooking Sorcery",
+        "Intellicup–Smart Cups",
+        "Intellicup–The Cooking Sorcery",
+      ],
+      answer: "Diagenetix-BioRanger",
+    },
+    {
+      question:
+        "What is the unique feature of Spinn Inc.’s smart coffee machines?",
+      options: [
+        "They connect with Amazon Echo and have an auto-order feature",
+        "They remove automation from coffee brewing",
+        "They require manual input for all brewing processes",
+        "They prevent connectivity with IoT platforms",
+      ],
+      answer: "They connect with Amazon Echo and have an auto-order feature",
+    },
+  ],
   // <!-------------------------------------------- WEEK 11---------------------------------------------------------->
   "Week 11": [],
   // <!-------------------------------------------- WEEK 12---------------------------------------------------------->
