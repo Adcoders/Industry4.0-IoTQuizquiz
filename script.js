@@ -9,9 +9,9 @@ const quizData = {
     },
     {
       question:
-        "2. What is the maximum data rate of Z-Wave communication technology?",
+        "What is the maximum data rate of Z-Wave communication technology?",
       options: ["100 kbps", "250 kbps", "500 kbps", "1 Mbps"],
-      answer: "a. 100 kbps",
+      answer: "100 kbps",
     },
     {
       question:
